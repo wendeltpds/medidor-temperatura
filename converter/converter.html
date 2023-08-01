@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="converter.js"></script>
+    <link rel="stylesheet" href="converter.css">
+</head>
+<body>
+<div class="corpo">
+    <label>entra com a temperatura:</label><br>
+    <input type="text"  id="textbox"><br>
+
+    <label>converter para:</label><br>
+    <input type="radio" name="unit" id="cbutton">
+    <label>fahrenheit</label><br>
+    <input type="radio" name="unit" id="fbutton">
+    <label>kelvin</label><br>
+
+    <button onclick="calc()" type="button" id="submitbutton" >submit</button><br>
+    <label id="templabel" ></label>
+</div>
+
+</body>
+</html>

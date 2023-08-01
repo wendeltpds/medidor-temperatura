@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+.corpo {
+    width: 390px;
+    height: 190px;
+    background-color: grey;
+    margin-top: 300px;
+    margin-left: 800px;
+    text-align: center;
+    padding: 10px;
+}
